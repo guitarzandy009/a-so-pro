@@ -30,15 +30,21 @@
 
   header {
     grid-area: header;
+    border: 1px solid var(--color-1);
   }
 
   nav {
     grid-area: nav;
+    border: 1px solid var(--color-3);
   }
 
   .divider {
     grid-area: divide;
+    border: 1px solid var(--shadow-color);
+    justify-self: center;
   }
+
+
 
   .left-panel {
     grid-area: left;
@@ -46,6 +52,7 @@
 
   main {
     grid-area: main;
+    border: 1px solid var(--color-3);
   }
 
   .right-panel {
